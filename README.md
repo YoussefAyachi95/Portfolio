@@ -24,4 +24,4 @@ This is a simple Porfolio with some of my projects done this last couple months.
 - Background: #FEFAF6
 - Text: #323780
 - Borders/Hover: #F14C36
-- Gradient: <a href="https://codepen.io/LauraRobertson/pen/eBjrgj">https://codepen.io/LauraRobertson/pen/eBjrgj</a>
+- Gradient: <a href="https://codepen.io/LauraRobertson/pen/eBjrgj" target="_blank">https://codepen.io/LauraRobertson/pen/eBjrgj</a>
