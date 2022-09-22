@@ -4,7 +4,7 @@
 
 ---
 
-### Idea
+### Idea:
 
 This is a simple Porfolio with some of my projects done this last couple months. It's a native CSS only Portfolio.
 
