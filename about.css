@@ -1,0 +1,171 @@
+/* ABOUT ME SECTION */
+
+.about_me {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.text_area {
+    width: 50%;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+.second_image_container {
+    height: 600px;
+    width: 380px;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    --b: 10px;
+    /* control the size */
+    padding: var(--b);
+    border: calc(2*var(--b)) solid #0000;
+    outline: 1px solid #000;
+    outline-offset: calc(-1*var(--b));
+    background: conic-gradient(from 90deg at 1px 1px, #0000 90deg, #000 0);
+}
+
+.second_image_container img {
+    width: 350px;
+}
+
+/* DARK MODE */
+
+body.dark .second_image_container {
+    padding: var(--b);
+    border: calc(2*var(--b)) solid #0000;
+    outline: 1px solid white;
+    outline-offset: calc(-1*var(--b));
+    background: conic-gradient(from 90deg at 1px 1px, #0000 90deg, white 0);
+}
+
+
+/* END DARK MODE */
+
+.text_area a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.text_area a:hover {
+    border-bottom: 5px solid #f14c36;
+}
+
+
+.text_area p {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* SECTION SKILLS AND TOOLS */
+
+.title {
+    margin-left: 28rem;
+    margin-top: 20rem;
+}
+
+h2 {
+    font-size: 5rem;
+    margin-bottom: 8rem;
+    border-bottom: 5px solid #F14C36;
+    width: 90%;
+    transition: all 1s;
+}
+
+.skills,
+.tools {
+    width: 90%;
+    display: flex;
+    margin-bottom: 4rem;
+    padding: 4rem;
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+.box {
+    margin-left: 10rem;
+    border-radius: 4rem;
+
+}
+
+.box img {
+    width: 100px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.box img:hover {
+    transform: scale(1.5) rotate(5deg) translateX(-3px);
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 575px) {
+    .fixed_footer {
+        visibility: hidden;
+    }
+
+    footer {
+        height: 1vh;
+        visibility: visible;
+        display: flex;
+        margin-left: 50%;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .about_me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title {
+        margin-left: 15rem;
+    }
+
+
+    .skills,
+    .tools {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        margin-top: 2rem;
+
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1440px) {
+
+    .title {
+        margin-left: 10rem;
+        width: 90%;
+    }
+
+    .skills,
+    .tools {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        margin-top: 2rem;
+
+    }
+}
