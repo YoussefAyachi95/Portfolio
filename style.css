@@ -109,7 +109,7 @@ label {
 nav {
     display: flex;
     justify-content: space-around;
-    margin-right: 30rem
+    margin-right: 40rem
 }
 
 .logo img {
@@ -258,14 +258,10 @@ nav ul li:hover:not(:nth-child(1)) {
 /* IMAGE CONTAINER */
 
 .image_container {
-    background-image: url(/assets/Human_hand_typing_on_computer_with_different_symbols_above-removebg-preview.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 80%;
-    height: 50vh;
+    width: 100%;
+    height: 60vh;
     margin-right: 5rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
     vertical-align: middle;
     border-radius: 2rem;
 }
@@ -470,6 +466,11 @@ footer {
 /* MEDIA QUERIES */
 
 @media (max-width: 500px) {
+
+    nav {
+        margin-left: 10rem;
+    }
+
     .logo img {
         margin-top: 8rem;
         width: 250px !important;
@@ -478,6 +479,11 @@ footer {
 
 
 @media (max-width: 575px) {
+
+    nav {
+        margin-left: 10rem;
+    }
+
 
     .fixed_footer {
         visibility: hidden;
@@ -522,6 +528,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+
 
     /* HAMBURGER SHOWUP */
 
@@ -718,14 +725,24 @@ footer {
 
 }
 
-@media (min-width: 769px) and (max-width: 1500px) {
+@media (min-width: 769px) and (max-width: 1042px) {
+
+    nav {
+        margin-right: 40rem;
+    }
+
+    .logo a img {
+        width: 200px;
+        margin-top: 7rem;
+    }
+
 
     #second_project {
         margin-top: 8rem;
     }
 
     #second_project img {
-        width: 450px;
+        width: 200px;
     }
 
 }
