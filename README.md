@@ -13,7 +13,7 @@ This is a simple Porfolio with some of my projects done this last couple months.
 
 - Figma: For making a wireframe so I can design my idea. I used some Figma plugins like <b>Mockup</b> for mobile/laptop view mockups and <b>Remove BG</b> to remove some of my image's background.
 - GIMP: For editing some images.
-- Online tools: Like <a href="https://www.logoai.com" target="_blank">LogoAI</a> for making a logo, <a href="https://devicon.dev" target="_blank">DEVICON</a> for icons and <a href="https://drawkit.com/" target="_blank">Drawkit</a> for Vectors.
+- Online tools: Like <a href="https://www.logoai.com" target="_blank">LogoAI</a> for making a logo, <a href="https://devicon.dev" target="_blank">DEVICON</a> for icons, <a href="https://drawkit.com/" target="_blank">Drawkit</a> for Vectors and <a href="https://lottiefiles.com/blog/working-with-lottie/how-to-add-lottie-animation-in-web-page-html" target="_blank">Lottiefiles</a> to animate the JSON file animation.
 
 
 ### Fonts:
