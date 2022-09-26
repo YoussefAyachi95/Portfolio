@@ -487,6 +487,20 @@ footer {
         visibility: hidden;
     }
 
+    .buttons_flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image_container {
+        margin-right: 10rem;
+    }
+
+    #work h2 {
+        width: 50%;
+    }
+
+
     footer {
         height: 1vh;
         visibility: visible;
@@ -506,7 +520,7 @@ footer {
     .projects h3,
     .projects p,
     .form_row {
-        margin-left: -5rem;
+        margin-left: -7rem;
     }
 
     .project_img {
